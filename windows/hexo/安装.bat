@@ -1,0 +1,1 @@
+npm install -g cnpm --registry=https://registry.npm.taobao.org && cnpm install hexo-cli -g && hexo init blog && cd blog && cnpm install 

@@ -1,0 +1,6 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Get MD5]
+@="Hash-Check"
+[HKEY_CLASSES_ROOT\*\shell\Get MD5\command]
+@="\"C:\\Program Files\\hash-md5.bat\" \"%2\""

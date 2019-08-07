@@ -1,6 +1,7 @@
 #!/bin/bash
 #This Auto_upgrade_k3s
-
+# If u first use this scpirt just input:
+# wget -P /opt/k3sup/ https://git.io/fjQVd && chmod +x /opt/k3sup/k3sup.sh && bash /opt/k3sup/k3sup.sh 
 function detection_shell(){
 a= find ~/.bashrc | xargs grep -ri "k3sup"
 if 	[ -z $a ]
